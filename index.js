@@ -13,11 +13,7 @@ const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 //
 const BotName = 'F-BOT'; // Nama Bot Whatsapp
-const instagramlu = 'https://instagram.com/bintang_nur_pradana'; // Nama Instagramlu cok
-const whatsapplu = '0819-4698-3575'; // Nomor whatsapplu cok
-const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/FsAlnxqz6y2BhCQi5ayCLG'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://chat.whatsapp.com/KLW3UlFfeaH36Ucm5zRfCz'; // OFFICIAL GRUP LU 2
+const kapanbotaktif = 'SESUAI JARINGAN:D'; // Kapan bot lu aktif
 //
 const
 {
@@ -226,7 +222,7 @@ axios.get('https://api.banghasan.com/quran/format/json/acak').then((res) => {
 }
 	
 else if (text == '!BOT'){
-conn.sendMessage(id, 'YA? ADA YANG BISA DI BANTU? KETIK #help ' ,MessageType.text);
+conn.sendMessage(id, 'YA? ADA YANG BISA DI BANTU? KETIK #menu  ' ,MessageType.text);
 }
 else if (text == '#donate'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
